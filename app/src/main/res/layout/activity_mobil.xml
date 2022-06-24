@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mobil">
+
+    <TextView
+        android:id="@+id/tvAsetMobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penambahan Aset Mobil"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/brosur"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnamamobil"
+        android:layout_below="@+id/tvAsetMobil"
+        android:text="Nama Mobil"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettipemobil"
+        android:layout_below="@+id/etnamamobil"
+        android:text="Tipe Mobil"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etjenisbahanbakar"
+        android:layout_below="@+id/ettipemobil"
+        android:text="Jenis Bahan Bakar"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etjenistransmisi"
+        android:layout_below="@+id/etjenisbahanbakar"
+        android:text="Jenis Transmisi"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etwarnamobil"
+        android:layout_below="@+id/etjenistransmisi"
+        android:text="Warna Mobil"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etfasilitasmobil"
+        android:layout_below="@+id/etwarnamobil"
+        android:text="Fasilitas Mobil"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettarifsewamobil"
+        android:layout_below="@+id/etfasilitasmobil"
+        android:text="Tarif Sewa Mobil"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etkapasitaspenumpang"
+        android:layout_below="@+id/ettarifsewamobil"
+        android:text="Kapasitas Penumpang"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etplatnomor"
+        android:layout_below="@+id/etkapasitaspenumpang"
+        android:text="Plat Nomor"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etvolumebahanbakar"
+        android:layout_below="@+id/etplatnomor"
+        android:text="Volume Bahan Bakar"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnomorstnk"
+        android:layout_below="@+id/etvolumebahanbakar"
+        android:text="Nomor STNK"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etperiodekontrakmulai"
+        android:layout_below="@+id/etnomorstnk"
+        android:text="Periode Kontrak Mulai"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etperiodekontrakakhir"
+        android:layout_below="@+id/etperiodekontrakmulai"
+        android:text="Periode Kontrak Akhir"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettanggalakhirservice"
+        android:layout_below="@+id/etperiodekontrakakhir"
+        android:text="Tgl Akhir Service"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etfotomobil"
+        android:layout_below="@+id/ettanggalakhirservice"
+        android:text="Foto Mobil"
+        />
+
+    <Button
+        android:id="@+id/btnAsetMobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etfotomobil"
+        android:text="Tambah Aset Mobil" />
+
+
+</RelativeLayout>

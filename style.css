@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+.bg {
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.promo {
+  background-color: #e7e7e7;
+  color: black;
+} /* Gray */
+.promo:hover {
+  background: #ddd;
+}
+span {
+  font-size: 20px;
+}
+
+h5 {
+  text-align: center;
+}
+.btni {
+  background-color: #4f7b8e; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btni1 {
+  background-color: #cf2a2a; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btni2 {
+  background-color: #13bc29; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  border-radius: 50%;
+  font-weight: bold;
+}
+hr.rounded {
+  border-top: 8px solid rgb(18, 12, 12);
+  border-radius: 5px;
+}
+.btna {
+  background-color: #000000; /* Black */
+  border: none;
+  color: rgb(249, 249, 249);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvChooseRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Account"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/btnRegisterCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvChooseRegister"
+        android:layout_marginTop="20dp"
+        android:text="Register Customer"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/btnRegisterDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegisterCustomer"
+        android:layout_marginTop="15dp"
+        android:text="Register Driver"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/btnRegisterPegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegisterDriver"
+        android:layout_marginTop="15dp"
+        android:text="Register Pegawai"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/btnRegisterPemilikMobil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegisterPegawai"
+        android:layout_marginTop="15dp"
+        android:text="Register Pemilik Mobil"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

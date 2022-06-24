@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JabatanActivity">
+
+    <TextView
+        android:id="@+id/tvJabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JABATAN"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvJabatan"
+        android:id="@+id/etnamajabatan"
+        android:hint="Nama Jabatan"
+        android:inputType="textPersonName"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnJabatan"
+        android:text="JABATAN"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etnamajabatan"/>
+
+</RelativeLayout>

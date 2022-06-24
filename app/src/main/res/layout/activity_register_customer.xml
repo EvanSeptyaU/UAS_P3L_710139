@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCustomerActivity">
+
+    <TextView
+        android:id="@+id/tvPleaseRegisterCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Customer"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etnamacustomer"
+        android:hint="Nama Customer"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvPleaseRegisterCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/etpassword"
+        android:hint="Password"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etnamacustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/ettanggallahircustomer"
+        android:hint="TTL"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etemailcustomer"
+        android:hint="Email"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/ettanggallahircustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etnomorteleponcustomer"
+        android:hint="Nomor Telepon"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etemailcustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etalamatcustomer"
+        android:hint="Alamat"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etnomorteleponcustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etnomorktp"
+        android:hint="Nomor KTP"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etalamatcustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etnomorsim"
+        android:hint="Nomor SIM"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etnomorktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etdokumenktp"
+        android:hint="Dokumen KTP"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etnomorsim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType=""
+        android:drawablePadding="20dp"/>
+    <EditText
+        android:id="@+id/etdokumensim"
+        android:hint="Dokumen SIM"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/etdokumenktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"/>
+
+    <Button
+        android:id="@+id/btnRegisterAccountCustomer"
+        android:layout_below="@id/etdokumensim"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Customer"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvLoginAccountCustomer"
+        android:layout_below="@id/btnRegisterAccountCustomer"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Already have account? Login Here"
+        android:textSize="15dp"
+        />
+
+
+</RelativeLayout>
